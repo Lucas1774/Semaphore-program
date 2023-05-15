@@ -2,36 +2,52 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         Bridge bridge = new Bridge();
 
-        Thread car1 = new Thread(new Car("Car 1", "north", bridge));
-        Thread car2 = new Thread(new Car("Car 2", "south", bridge));
-        Thread car3 = new Thread(new Car("Car 3", "south", bridge));
-        Thread car4 = new Thread(new Car("Car 4", "north", bridge));
-        Thread car5 = new Thread(new Car("Car 5", "north", bridge));
-        Thread car6 = new Thread(new Car("Car 6", "south", bridge));
-        Thread car7 = new Thread(new Car("Car 7", "south", bridge));
-        Thread car8 = new Thread(new Car("Car 8", "north", bridge));
-        Thread car9 = new Thread(new Car("Car 9", "south", bridge));
+        Thread car01 = new Thread(new Car("Car 01", "north", bridge));
+        Thread car02 = new Thread(new Car("Car 02", "south", bridge));
+        Thread car03 = new Thread(new Car("Car 03", "south", bridge));
+        Thread car04 = new Thread(new Car("Car 04", "north", bridge));
+        Thread car05 = new Thread(new Car("Car 05", "north", bridge));
+        Thread car06 = new Thread(new Car("Car 06", "south", bridge));
+        Thread car07 = new Thread(new Car("Car 07", "south", bridge));
+        Thread car08 = new Thread(new Car("Car 08", "north", bridge));
+        Thread car09 = new Thread(new Car("Car 09", "south", bridge));
         Thread car10 = new Thread(new Car("Car 10", "south", bridge));
-
-        car1.start();
-        Thread.sleep(400);
-        car2.start();
-        Thread.sleep(200);
-        car3.start();
-        Thread.sleep(60);
-        car4.start();
-        Thread.sleep(100);
-        car5.start();
-        Thread.sleep(80);
-        car6.start();
-        Thread.sleep(1200);
-        car7.start();
-        Thread.sleep(50);
-        car8.start();
-        Thread.sleep(700);
-        car9.start();
-        Thread.sleep(90);
+        Thread car11 = new Thread(new Car("Car 11", "north", bridge));
+        Thread car12 = new Thread(new Car("Car 12", "north", bridge));
+        Thread car13 = new Thread(new Car("Car 13", "south", bridge));
+        Thread car14 = new Thread(new Car("Car 14", "north", bridge));
+        Thread car15 = new Thread(new Car("Car 15", "south", bridge));
+        
+        car01.start();
+        Thread.sleep(4000);
+        car02.start();
+        Thread.sleep(2000);
+        car03.start();
+        Thread.sleep(600);
+        car04.start();
+        Thread.sleep(1000);
+        car05.start();
+        Thread.sleep(800);
+        car06.start();
+        Thread.sleep(12000);
+        car07.start();
+        Thread.sleep(500);
+        car08.start();
+        Thread.sleep(7000);
+        car09.start();
+        Thread.sleep(900);
         car10.start();
-        Thread.sleep(150);
+        Thread.sleep(1500);
+        car11.start();
+        Thread.sleep(3000);
+        car12.start();
+        Thread.sleep(1000);
+        car13.start();
+        Thread.sleep(2000);
+        car14.start();
+        Thread.sleep(500);
+        car15.start();
+        Thread.sleep(2500);
+        
     }
 }
