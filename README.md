@@ -8,4 +8,4 @@ Once on the bridge, there is a counter keeping track of the number of cars, just
 
 The program also has a static function just to check how it works, since debugging synchronous programs can be tricky.
 
-I've dealt with concurrency in 4 college subjects now. I don't care if this implementation is standard or weird in a problematic way. I'm done with college and learning patterns that are overkill for simple programs and not enough for complex ones. I've come to realize the software development ecosystem can be quite disappointing. It can also not but... Completely done with either learning "patterns" that are either useless or obvious, as well as with learning their names.
+I've dealt with concurrency in <s>4</s> 6 college subjects now. I don't care if this implementation is standard or weird in a problematic way. I'm done with college and learning patterns that are overkill for simple programs and not enough for complex ones. I've come to realize the software development academic ecosystem can be quite disappointing. I'm done with learning "patterns" that are either useless or obvious, as well as with learning their names.
